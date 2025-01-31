@@ -1,11 +1,19 @@
-// For Host App
-# host app is running on 3000
-#i have setup redux in it and use this redux store inside email-app and chat-app if any action and any slice i nedd for any micro app then i got add in host app and use it in any micro app
-#also i have use host app css into micro apss and micro css into host app
-// For Chat App
-# Chat App runnig on 3002
-#i have used firebase for chatting
-//For Email App
-# Email App runnig on 3001
-#i have used redux toolkit for store emails 
-#store and complete setup in host app i am sharing from host and use it in
+Micro-Frontend Architecture with Webpack ModuleFederation
+Host App (running on port 3000)
+Redux Setup: Redux is configured in the host app, and the store is shared with both the Email App and Chat App. Any required actions or slices are added in the host app and then shared with the micro apps.
+CSS: Host app's CSS is shared with the micro apps, while each micro app also includes its own CSS that is used within the host app.
+Chat App (running on port 3002)
+Firebase: Firebase is used to handle the real-time chat functionality, allowing users to send and receive messages.
+Email App (running on port 3001)
+Redux Toolkit: Redux Toolkit is used to manage the state for emails.
+Store Sharing: The store from the host app is shared and used in the email app to manage email-related state.
+Redux Actions and Slices: If any actions or slices are required for email management, they are added in the host app and used in the email app.
+Libraries and Packages Used:
+Redux Toolkit
+Tailwind CSS
+Firebase
+Ant Design (Antd)
+React Router Dom
+React Icons
+
+Note:-its only work when execute all apps at a time then 
