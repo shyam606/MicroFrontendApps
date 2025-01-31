@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .common_button {
+        @apply min-w-28 border border-red-300 transition-all duration-300 ease-in-out active:scale-95;
+    }
+    .common_button:hover {
+        @apply bg-red-300
+    }
+    .nav_link:hover{
+        @apply text-red-700
+    }
+    
+}
